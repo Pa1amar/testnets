@@ -2,7 +2,7 @@
 ### State Sync
 ### Snapshot
 **Public Endpoints**:
- - RPC:`rpc-euphoria.aura.palamar.io`
+ - RPC: `rpc-euphoria.aura.palamar.io`
  - API: `api-euphoria.aura.palamar.io`
 ### Ports used:
 
