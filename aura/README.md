@@ -32,4 +32,5 @@ sudo journalctl -u aurad -f -o cat
  - API: `api-euphoria.aura.palamar.io`
 
 **Ports used:**
-*26656, 26657, 9091, 9090, 6060, 1317*
+
+`26656, 26657, 9091, 9090, 6060, 1317`
