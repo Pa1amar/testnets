@@ -21,7 +21,8 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.aura/config/config.toml
 
 sudo systemctl restart aurad
-sudo journalctl -u aurad -f -o cat```
+sudo journalctl -u aurad -f -o cat
+```
 
 ### Snapshot
 **Public Endpoints**:
