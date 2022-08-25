@@ -1,6 +1,7 @@
 
 **State Sync:**
 ```
+#stop node
 sudo systemctl stop aurad
 aurad tendermint unsafe-reset-all | aurad unsafe-reset-all
 
@@ -20,7 +21,9 @@ s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$RPC,$RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.aura/config/config.toml
 
+#start node
 sudo systemctl restart aurad
+#check logs
 sudo journalctl -u aurad -f -o cat
 ```
 
