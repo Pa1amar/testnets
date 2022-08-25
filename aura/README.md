@@ -28,14 +28,14 @@ sudo journalctl -u aurad -f -o cat
 ```
 **Pruning config**
 ```
-pruning-keep-recent=100
-pruning-keep-every=0
-pruning-interval=10
+recent=100
+every=0
+interval=10
 
 sed -i.back "s/pruning *=.*/pruning = \"custom\"/g" $HOME/.aura/config/app.toml
-sed -i "s/pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning-keep-recent\"/g" $HOME/.aura/config/app.toml
-sed -i "s/pruning-keep-every *=.*/pruning-keep-every = \"$pruning-keep-every\"/g" $HOME/.aura/config/app.toml
-sed -i "s/pruning-interval *=.*/pruning-interval = \"$pruning-interval\"/g" $HOME/.aura/config/app.toml
+sed -i "s/pruning-keep-recent *=.*/pruning-keep-recent = \"$recent\"/g" $HOME/.aura/config/app.toml
+sed -i "s/pruning-keep-every *=.*/pruning-keep-every = \"$every\"/g" $HOME/.aura/config/app.toml
+sed -i "s/pruning-interval *=.*/pruning-interval = \"$interval\"/g" $HOME/.aura/config/app.toml
 ```
 
 **Public Endpoints**:
