@@ -1,6 +1,7 @@
 
 **State Sync:**
-```sudo systemctl stop aurad
+```
+sudo systemctl stop aurad
 aurad tendermint unsafe-reset-all | aurad unsafe-reset-all
 
 RPC="https://rpc-euphoria.aura.palamar.io:443"
