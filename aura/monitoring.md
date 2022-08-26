@@ -23,4 +23,4 @@ nano $HOME/tenderduty/config.yml
 docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
 docker logs -f --tail 20 tenderduty
 ```
-#open your browser and enter SERVER_IP_ADDRESS:8888
+#open your browser and enter SERVER_IP_ADDRESS:8888 #Example http://116.203.95.247:8888/
