@@ -1,5 +1,5 @@
 **install docker**
-```
+```shell
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg lsb-release
 sudo mkdir -p /etc/apt/keyrings
@@ -9,15 +9,15 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 **configuring tenderduty**
-```
 
+```shell
 cd && mkdir tenderduty && cd tenderduty
 docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
 # edit config.yml and add chains, notification methods etc.
 nano $HOME/tenderduty/config.yml
 ```
 **run docker and check logs**
-```
+```shell
 docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
 docker logs -f --tail 20 tenderduty
 ```
