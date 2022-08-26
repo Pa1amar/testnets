@@ -13,9 +13,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 cd && mkdir tenderduty && cd tenderduty
 docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
-```
-**edit config**
-```
+# edit config.yml and add chains, notification methods etc.
 nano $HOME/tenderduty/config.yml
 ```
 **run docker and check logs**
