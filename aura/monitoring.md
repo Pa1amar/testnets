@@ -1,4 +1,4 @@
-# Aura configuring Monitor/Alert system
+# Aura configuring Monitoring/Alert system
 **install docker**
 ```shell
 sudo apt-get update
