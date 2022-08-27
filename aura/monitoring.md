@@ -22,6 +22,7 @@ nano $HOME/tenderduty/config.yml
  - RPC: `https://snapshot-1.euphoria.aura.network`
  - RPC: `https://snapshot-2.euphoria.aura.network`
  - RPC: `https://rpc-t.aura.nodestake.top`
+
 **run docker and check logs**
 ```shell
 docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
