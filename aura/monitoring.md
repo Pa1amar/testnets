@@ -27,7 +27,7 @@ docker logs -f --tail 20 tenderduty
 ![Image alt](https://github.com/Pa1amar/images/blob/main/2022-08-26_21-29.png)
 
 **Public Endpoints**:
- - RPC: `rpc-euphoria.aura.palamar.io`
+ - RPC: `https://rpc-euphoria.aura.palamar.io`
  - RPC: `https://snapshot-1.euphoria.aura.network`
  - RPC: `https://snapshot-2.euphoria.aura.network`
  - RPC: `https://rpc-t.aura.nodestake.top`
