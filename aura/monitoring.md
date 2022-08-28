@@ -1,5 +1,5 @@
 # Aura configuring Monitoring/Alert system
-**install docker**
+***install docker***
 ```shell
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg lsb-release
