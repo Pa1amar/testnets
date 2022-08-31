@@ -3,7 +3,7 @@
 ```
 #stop node
 sudo systemctl stop aurad
-aurad tendermint unsafe-reset-all | aurad unsafe-reset-all
+aurad tendermint unsafe-reset-all --home $HOME/.aura
 
 RPC="https://rpc-euphoria.aura.palamar.io:443"
 
