@@ -41,7 +41,7 @@ sed -i "s/pruning-interval *=.*/pruning-interval = \"$interval\"/g" $HOME/.haqqd
 **Public Endpoints**:
  - RPC: `rpc-haqq.palamar.io`
  - API: `api-haqq.palamar.io`
- - Explorer: https://testnet.explorer.palamar.io/haqq
+ - Explorer: `https://testnet.explorer.palamar.io/haqq`
 
 **Ports used:**
 
