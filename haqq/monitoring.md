@@ -24,7 +24,7 @@ docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd
 docker logs -f --tail 20 tenderduty
 ```
 **open your browser and enter SERVER_IP_ADDRESS:8888** #Example http://195.64.235.189:8888/
-![Image alt](https://github.com/Pa1amar/images/blob/main/2022-08-26_21-29.png)
+![Image alt](https://raw.githubusercontent.com/Pa1amar/images/main/tenderduty.png)
 
 **Public Endpoints**:
  - RPC: `https://rpc-haqq.palamar.io`
