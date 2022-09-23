@@ -20,8 +20,8 @@ nano $HOME/tenderduty/config.yml
 
 ***run docker and check logs***
 ```shell
-docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
-docker logs -f --tail 20 tenderduty
+sudo docker run -d --name tenderduty -p "8888:8888" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
+sudo docker logs -f --tail 20 tenderduty
 ```
 **open your browser and enter SERVER_IP_ADDRESS:8888** #Example http://195.64.235.189:8888/
 ![Image alt](https://raw.githubusercontent.com/Pa1amar/images/main/tenderduty.png)
