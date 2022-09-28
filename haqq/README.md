@@ -4,7 +4,8 @@ cd && rm -rf haqq
 git clone https://github.com/haqq-network/haqq.git
 cd haqq && git checkout v1.1.0
 make build
-mv build/haqqd $(which haqqd)
+sudo mv build/haqqd $(which haqqd)
+sudo systemctl restart haqqd
 ```
 **State Sync:**
 ```
