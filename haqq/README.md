@@ -1,5 +1,5 @@
-##Upgrade:
-```
+## Upgrade:
+```bash
 cd && rm -rf haqq
 git clone https://github.com/haqq-network/haqq.git
 cd haqq && git checkout v1.1.0
@@ -7,7 +7,7 @@ make build
 sudo mv build/haqqd $(which haqqd)
 sudo systemctl restart haqqd
 ```
-##State Sync:
+## State Sync:
 ```bash
 #stop node
 sudo systemctl stop haqqd
@@ -34,8 +34,8 @@ sudo systemctl restart haqqd
 #check logs
 sudo journalctl -u haqqd -f -o cat
 ```
-##Pruning config
-```
+## Pruning config
+```bash
 recent=100
 every=0
 interval=10
