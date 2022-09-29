@@ -1,6 +1,6 @@
 
 ## State Sync:
-```
+```bash
 #stop node
 sudo systemctl stop aurad
 aurad tendermint unsafe-reset-all --home $HOME/.aura
