@@ -27,7 +27,7 @@ sudo systemctl restart aurad
 sudo journalctl -u aurad -f -o cat
 ```
 ## Pruning config
-```
+```bash
 recent=100
 every=0
 interval=10
