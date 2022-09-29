@@ -1,5 +1,5 @@
 
-##State Sync:
+## State Sync:
 ```
 #stop node
 sudo systemctl stop aurad
@@ -26,7 +26,7 @@ sudo systemctl restart aurad
 #check logs
 sudo journalctl -u aurad -f -o cat
 ```
-**Pruning config**
+## Pruning config
 ```
 recent=100
 every=0
