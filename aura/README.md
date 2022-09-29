@@ -1,5 +1,5 @@
 
-**State Sync:**
+##State Sync:
 ```
 #stop node
 sudo systemctl stop aurad
