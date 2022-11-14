@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 read -p "Enter your node name: " MONIKER
@@ -96,4 +95,3 @@ sudo systemctl enable penumbrad
 sudo systemctl restart penumbrad
 sleep 15
 sudo systemctl restart tendermintd
-```
