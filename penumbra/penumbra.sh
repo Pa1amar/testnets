@@ -42,7 +42,7 @@ rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
 cd penumbra 
 git fetch --all
-git checkout 034-aoede
+git checkout 035-taygete
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
 cargo build --release
