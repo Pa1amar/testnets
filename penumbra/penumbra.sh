@@ -32,7 +32,7 @@ sleep 2
 peers=$(curl -s http://testnet.penumbra.zone:26657/status | jq ".result.node_info.id" | sed 's/.$//' | sed 's/^.//')
 peers=$(echo "$peers@testnet.penumbra.zone:26656")
 sleep 5
-sed -i.bak -e "s/^bootstrap-peers =.*/bootstrap-peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
+sed -i.bak -e "s/^persistent_peers =.*/persistent_peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
 sed -i "s/^mode =.*/mode = \"validator\"/" $HOME/.tendermint/config/config.toml
 sed -i "s/^moniker =.*/moniker = \"$MONIKER\"/" $HOME/.tendermint/config/config.toml
 #curl -s http://testnet.penumbra.zone:26657/genesis | jq ".result.genesis" > $HOME/.penumbra/testnet_data/node0/tendermint/config/genesis.json
