@@ -29,12 +29,12 @@ sleep 2
 tendermint init full
 curl -s https://raw.githubusercontent.com/penumbra-zone/penumbra/main/testnets/tm_config_template.toml > $HOME/.tendermint/config/config.toml
 sleep 2
-peers=$(curl -s http://testnet.penumbra.zone:26657/status | jq ".result.node_info.id" | sed 's/.$//' | sed 's/^.//')
-peers=$(echo "$peers@testnet.penumbra.zone:26656")
-sleep 5
-sed -i.bak -e "s/^persistent_peers =.*/persistent_peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
-sed -i "s/^mode =.*/mode = \"validator\"/" $HOME/.tendermint/config/config.toml
-sed -i "s/^moniker =.*/moniker = \"$MONIKER\"/" $HOME/.tendermint/config/config.toml
+#peers=$(curl -s http://testnet.penumbra.zone:26657/status | jq ".result.node_info.id" | sed 's/.$//' | sed 's/^.//')
+#peers=$(echo "$peers@testnet.penumbra.zone:26656")
+#sleep 5
+#sed -i.bak -e "s/^persistent_peers =.*/persistent_peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
+#sed -i "s/^mode =.*/mode = \"validator\"/" $HOME/.tendermint/config/config.toml
+#sed -i "s/^moniker =.*/moniker = \"$MONIKER\"/" $HOME/.tendermint/config/config.toml
 #curl -s http://testnet.penumbra.zone:26657/genesis | jq ".result.genesis" > $HOME/.penumbra/testnet_data/node0/tendermint/config/genesis.json
 sleep 3
 cd $HOME
