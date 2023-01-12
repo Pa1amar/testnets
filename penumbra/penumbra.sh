@@ -23,7 +23,7 @@ cd $HOME
 rm -rf $HOME/tendermint
 git clone https://github.com/tendermint/tendermint.git
 cd tendermint
-git checkout v0.34.21
+git checkout v0.34.23
 make install
 sleep 2
 tendermint init full
@@ -42,7 +42,7 @@ rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
 cd penumbra 
 git fetch --all
-git checkout 039-praxidike
+git checkout 040-themisto
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
 cargo build --release
