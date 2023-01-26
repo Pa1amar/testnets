@@ -46,7 +46,6 @@ git checkout 041-callirrhoe
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
 cargo build --release
-#cargo run --release --bin pd start --rocks-path /root/.rocksdb 
 mv ~/penumbra/target/release/pd /usr/local/bin/ || exit
 mv ~/penumbra/target/release/pcli /usr/local/bin/ || exit
 rm -rf $HOME/.penumbra/testnet_data
