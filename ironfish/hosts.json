@@ -1,0 +1,304 @@
+{
+    "priorPeers": [
+        {
+            "address": "38.242.148.21",
+            "port": 9033,
+            "identity": "UoEBtL2ilUAHmHw7WkUIlTAw+IEpbwY0AD0D/hQHsAE=",
+            "name": "Succotash"
+        },
+        {
+            "address": "99.62.99.194",
+            "port": 9033,
+            "identity": "sfqZxLyvIElg6tva7LOYILdj20N8j7FbjoIB1C4c1V4=",
+            "name": "masterdzu"
+        },
+        {
+            "address": null,
+            "port": null,
+            "identity": "3SvqNMlrmBB8FsAURagNr/w9V/B3t59ZdGOs6vokOkQ=",
+            "name": "TimY"
+        },
+        {
+            "address": null,
+            "port": null,
+            "identity": "OGG20R2XYh5K1DE/ilyOS6X2bG/eEV2Vo3DHBAwl11c=",
+            "name": "Dimassssia"
+        },
+        {
+            "address": "49.12.104.223",
+            "port": 9033,
+            "identity": "FO1qFTLqF906g0QwD4a7U0fiOD3cwHmG+esO8IGOOUw=",
+            "name": ".novichevska"
+        },
+        {
+            "address": "46.151.28.68",
+            "port": 9033,
+            "identity": "iKLW2wTqTLIxT2gzNAVsmmCZC7JDTKFN9I54XuSvsRM=",
+            "name": "nilscat"
+        },
+        {
+            "address": "159.89.50.148",
+            "port": 9033,
+            "identity": "8dHy/hlPa6bUFqNk3I0WUYtuXhL9N/Iof+NehobIdzc=",
+            "name": "CryptoReddys"
+        },
+        {
+            "address": "89.58.35.177",
+            "port": 9033,
+            "identity": "OZ+L/MB6jL3FXwbclJXBAbkzVCZ8WnQa3iwZcL2Emns=",
+            "name": "bubblegum"
+        },
+        {
+            "address": null,
+            "port": null,
+            "identity": "65Nil/OUmbBWrMRoG7+KW1dbzOk5An4OpWvpOUC9mB4=",
+            "name": "Nazario"
+        },
+        {
+            "address": "161.97.85.181",
+            "port": 9033,
+            "identity": "3ZllWYfzcColRQ4ZbotAfXGL4x/iYaDS0cAcCnvzBWM=",
+            "name": "araojpn"
+        },
+        {
+            "address": "95.217.113.140",
+            "port": 9033,
+            "identity": "IfmJya8idlssN004dlTc9OdPpktMUbcUot9/0vVIdgU=",
+            "name": "ofcorp"
+        },
+        {
+            "address": "185.206.214.96",
+            "port": 9033,
+            "identity": "6oOhpeHlPbXb2pgBolDjn3RkfAeINmi+fE1ObAP2cz8=",
+            "name": "MAXIWAMOTO"
+        },
+        {
+            "address": "185.177.116.21",
+            "port": 9033,
+            "identity": "S9/VSdTLMuYNkR85yeu/7aXYGymx3UYlC+edgN6Ngn0=",
+            "name": ""
+        },
+        {
+            "address": "83.171.249.80",
+            "port": 9033,
+            "identity": "ufttpECgtVDAnHgCtD8d/2rHKDJUMZeky5dj814z0Go=",
+            "name": "radius09"
+        },
+        {
+            "address": "43.156.27.108",
+            "port": 9033,
+            "identity": "5XZ7TErCZ80EEfsaSuWpYLIIVsfCYMYmtxVU30eRWQs=",
+            "name": ""
+        },
+        {
+            "address": "45.159.250.130",
+            "port": 9033,
+            "identity": "rCRQZMaGX0nBJDvvtu7IZY+EmJt0O0mRiJ5k8WTU7T8=",
+            "name": "Zashawkaa"
+        },
+        {
+            "address": "162.55.209.21",
+            "port": 9033,
+            "identity": "ggfsdGGihjIb/dT8GvQPTn/vMdNzySdSAv7Q/GWd1xQ=",
+            "name": ""
+        },
+        {
+            "address": "213.21.202.26",
+            "port": 9033,
+            "identity": "xS8kke8YfO5QpB+tOnu5sp/EuDsmdy60Db/OfaAMrRg=",
+            "name": "FinIvanov"
+        },
+        {
+            "address": "89.58.31.208",
+            "port": 9033,
+            "identity": "4N7tb0NHvYlNuY8uBQEN6VufzGdWTtZeFs0RqqEh4kM=",
+            "name": "redarmy"
+        },
+        {
+            "address": "185.192.96.135",
+            "port": 9033,
+            "identity": "nEgzJR8N3pzb7fKUp/IfZQ6pnPLxM1CuzAFr0S8gyFo=",
+            "name": "VASYL3107"
+        },
+        {
+            "address": "167.235.84.253",
+            "port": 9033,
+            "identity": "7O8Gg+BrCN5Kk+ao9MmWrrvWphAnQ/2xiPWkcGAOkyc=",
+            "name": "fmusicmc"
+        },
+        {
+            "address": null,
+            "port": null,
+            "identity": "QRhj7h02Z/kmWeYKePF3Uzv0xrif4r96Z0go+0a9BRg=",
+            "name": "Shakey"
+        },
+        {
+            "address": "135.181.197.166",
+            "port": 9033,
+            "identity": "BDRXkSPRh3P8YbCEgDgr6phqv7zblKw0mikTGUHHinc=",
+            "name": "basilifnod2"
+        },
+        {
+            "address": "173.249.20.43",
+            "port": 9033,
+            "identity": "M8aYgyC0m7RF/5d+xepS3inIBgzwZ93ZzIF2tO2sohE=",
+            "name": "arturb"
+        },
+        {
+            "address": "95.111.244.14",
+            "port": 9033,
+            "identity": "mj8uhff/YVSvgJveNG3O6+V2NVCeY0izgDqgkEMLdEw=",
+            "name": "TurboFinal"
+        },
+        {
+            "address": "143.198.214.74",
+            "port": 9033,
+            "identity": "VXUJJW9t/SB4e+O1pqfihZZe0ZH7TmwcDbN3+urfDAs=",
+            "name": ""
+        },
+        {
+            "address": "5.75.199.10",
+            "port": 9033,
+            "identity": "vZONNs2sZ4zeR4TXDbue+JuVe27YLqaqt7pNwrzJ9i0=",
+            "name": "babayan7"
+        },
+        {
+            "address": "5.75.136.102",
+            "port": 9033,
+            "identity": "DlDuxp2JfH/DZNNnPa5yoOGodqGf68BEDmcBUesYen4=",
+            "name": "shlifstake"
+        },
+        {
+            "address": "164.68.127.89",
+            "port": 9033,
+            "identity": "Gd2q69rB/SOaUaWbH6IJkCjVLSSV1GLJe59dv91R6Ts=",
+            "name": "eugenez"
+        },
+        {
+            "address": "65.109.175.69",
+            "port": 9033,
+            "identity": "5TaJKAoQFF9jqli0qRpQUAAYMmufhGon4wVctXJgenM=",
+            "name": "romyu1985"
+        },
+        {
+            "address": "176.126.113.158",
+            "port": 9033,
+            "identity": "7wBc169Va1EEvaizfz7tszzJ3M69xuOplxuqhBNqLzM=",
+            "name": "tit-nikol"
+        },
+        {
+            "address": "185.77.96.190",
+            "port": 9033,
+            "identity": "YvcF4cOsOhroogTT5bFdPbtrc8nekzOyvaT5eJV+kSI=",
+            "name": "itmanisp"
+        },
+        {
+            "address": "45.63.48.114",
+            "port": 9033,
+            "identity": "Qa1pLPvIc1RSMLW0s9iDWiggYttc830HryknFX6YW3s=",
+            "name": ""
+        },
+        {
+            "address": "38.242.253.232",
+            "port": 9033,
+            "identity": "mPbsSiZNVzxI8b45kZyXXkOZ7jDBgTZz0ElfR1qZVwM=",
+            "name": "williamkingdom"
+        },
+        {
+            "address": "46.101.220.157",
+            "port": 9033,
+            "identity": "9I/TavJbKA2YIZGtx0XDXpNXCn0Cz4gpx4x+DG9TZ20=",
+            "name": "WorkMan2"
+        },
+        {
+            "address": "162.55.242.163",
+            "port": 9033,
+            "identity": "9UJQmFltT/c9hY3ag1hqyEQ8k3JCrG6IHLtVT4YOnzY=",
+            "name": "tatikokon"
+        },
+        {
+            "address": "43.153.210.78",
+            "port": 9033,
+            "identity": "0SAmqhHEgBKNj7VYlr2KoTZRiFATIKQkiTyw7XNmuws=",
+            "name": ""
+        },
+        {
+            "address": "46.0.234.246",
+            "port": 9033,
+            "identity": "r0V0YO34vIGr14PpxjUd9ryXtbbtiG3MaUZ5d+VU0TU=",
+            "name": "geda532fdd"
+        },
+        {
+            "address": "34.92.99.8",
+            "port": 9033,
+            "identity": "fDTXEBdq3KWLlSR12GJTkxkh7c1UAXNwiuBRdUz2amM=",
+            "name": "bosheaqlmc@hotmail.com"
+        },
+        {
+            "address": "194.163.144.20",
+            "port": 9033,
+            "identity": "VaIBm7NMqkhM4BChmTSnXwP9Oj4wNw0EiAAetxsZTyw=",
+            "name": ""
+        },
+        {
+            "address": "65.109.87.218",
+            "port": 9033,
+            "identity": "SGQIVPRIT3W7CNDTLWrpsco/+XCDSrD8GUbycAxnoT8=",
+            "name": "KohutNataliia"
+        },
+        {
+            "address": "97.100.5.106",
+            "port": 9033,
+            "identity": "RIB+uYPPbUEHBmtgB6dGbn2zyejiLg8svqZV0OKg9XU=",
+            "name": "lwisne"
+        },
+        {
+            "address": "65.109.171.14",
+            "port": 9033,
+            "identity": "TD0ebXzSHylTI0jx4XZijzCTMdsuPJSEJPjIOZnL7wo=",
+            "name": "semenrikirovi4"
+        },
+        {
+            "address": "202.91.33.81",
+            "port": 9033,
+            "identity": "sRYa3mbTFKSCL+TXrFRraFAJ1JPsUa800SnnVP6Q7R8=",
+            "name": "askwhy"
+        },
+        {
+            "address": null,
+            "port": null,
+            "identity": "mi+OO+1/9sR1wncC4WqCYcfX1GA7hRBEttxn5kGSZlM=",
+            "name": "petrovska"
+        },
+        {
+            "address": "185.196.20.78",
+            "port": 9033,
+            "identity": "ElI8beYq+AGW29DxObJmmhFJj1ynBiQsWjvsAzzo4Xw=",
+            "name": "KozyrevaVarvara"
+        },
+        {
+            "address": "146.190.160.44",
+            "port": 9033,
+            "identity": "Z3XMBjoM/KJwCjCZpldfd7ZmJ11lSC9jLcuWNlBmYWg=",
+            "name": "Anatolievich"
+        },
+        {
+            "address": "139.59.155.129",
+            "port": 9033,
+            "identity": "tXHsCkFxr36se8peHO5UNOYF3vEu/a7ws3mSn1Baui8=",
+            "name": "serbdarkluci"
+        },
+        {
+            "address": "95.216.217.136",
+            "port": 9033,
+            "identity": "cERzZI6wfWnjrp0abMBGDABTW+VeqqdPBUR3AVZkMF4=",
+            "name": "Aarn"
+        },
+        {
+            "address": "43.153.25.170",
+            "port": 9033,
+            "identity": "laQ08eeaeZd6rmv9eoSPuRzY8wwG3/BCHCf8xoWPDUo=",
+            "name": "xcOIsAAZpN8EP3"
+        }
+    ]
+}
