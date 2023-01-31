@@ -1,0 +1,26 @@
+# Update this value to the location you want Sui to store its database
+db-path: "/var/sui/suidb"
+
+network-address: "/dns/localhost/tcp/8080/http"
+metrics-address: "0.0.0.0:9184"
+json-rpc-address: "0.0.0.0:9000"
+websocket-address: "0.0.0.0:9001"
+enable-event-processing: true
+
+genesis:
+  # Update this to the location of where the genesis file is stored
+  genesis-file-location: "/var/sui/genesis.blob"
+
+p2p-config:
+  seed-peers:
+    - address: /ip4/65.109.32.171/udp/8084 
+    - address: /ip4/65.108.44.149/udp/8084
+    - address: /ip4/95.214.54.28/udp/8080
+    - address: /ip4/136.243.40.38/udp/8080
+    - address: /ip4/84.46.255.11/udp/8084
+    - address: /ip4/185.31.174.45/udp/8084
+    - address: /dns/ams-suifn-ss1.testnet.sui.io/udp/8084
+    - address: /dns/sgp-suifn-ss2.testnet.sui.io/udp/8084
+    - address: /dns/icn-suifn-ss3.testnet.sui.io/udp/8084
+    - address: /dns/ord-suifn-ss4.testnet.sui.io/udp/8084
+    - address: /dns/lax-suifn-ss5.testnet.sui.io/udp/8084  
