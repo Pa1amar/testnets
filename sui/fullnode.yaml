@@ -13,12 +13,11 @@ genesis:
 
 p2p-config:
   seed-peers:
-    - address: /ip4/65.109.32.171/udp/8084 
-    - address: /ip4/65.108.44.149/udp/8084
-    - address: /ip4/95.214.54.28/udp/8080
     - address: /ip4/136.243.40.38/udp/8080
-    - address: /ip4/84.46.255.11/udp/8084
-    - address: /ip4/185.31.174.45/udp/8084
+    - address: /ip4/95.217.57.232/udp/8080
+    - address: /ip4/159.69.58.44/udp/8080
+    - address: /ip4/38.242.227.80/udp/8080
+    - address: /ip4/136.243.40.38/udp/8080
     - address: /dns/ams-suifn-ss1.testnet.sui.io/udp/8084
     - address: /dns/sgp-suifn-ss2.testnet.sui.io/udp/8084
     - address: /dns/icn-suifn-ss3.testnet.sui.io/udp/8084
