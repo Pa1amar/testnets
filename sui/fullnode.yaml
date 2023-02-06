@@ -18,8 +18,3 @@ p2p-config:
     - address: /ip4/159.69.58.44/udp/8080
     - address: /ip4/38.242.227.80/udp/8080
     - address: /ip4/136.243.40.38/udp/8080
-    - address: /dns/ams-suifn-ss1.testnet.sui.io/udp/8084
-    - address: /dns/sgp-suifn-ss2.testnet.sui.io/udp/8084
-    - address: /dns/icn-suifn-ss3.testnet.sui.io/udp/8084
-    - address: /dns/ord-suifn-ss4.testnet.sui.io/udp/8084
-    - address: /dns/lax-suifn-ss5.testnet.sui.io/udp/8084  
