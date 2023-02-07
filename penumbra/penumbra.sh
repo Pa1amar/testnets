@@ -40,7 +40,7 @@ rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
 cd penumbra 
 git fetch --all
-git checkout 042-adraste
+git checkout 043-leda
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
 cargo build --release
