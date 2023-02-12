@@ -4,6 +4,7 @@ read -p "Enter your node name: " MONIKER
 sudo apt update
 sudo apt install make clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
 
+IP_ADDRESS=$(curl ifconfig.me)
 echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
 wget -O go1.18.1.linux-amd64.tar.gz https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
@@ -50,7 +51,7 @@ rm -rf $HOME/.penumbra/testnet_data
 rm -rf $HOME/.cargo/git/checkouts/*
 pd testnet unsafe-reset-all
 pcli view reset
-pd testnet join --moniker $MONIKER
+pd testnet join --external-address $IP_ADDRESS --moniker $MONIKER
 
 echo -e '\n\e[42mCreating a service for Tendermint Node ...\e[0m\n' && sleep 1
 echo "[Unit]
