@@ -2,9 +2,11 @@
 
 read -p "Enter your node name: " MONIKER
 sudo apt update
-sudo apt install make clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
+sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
 
 IP_ADDRESS=$(curl ifconfig.me)
+PENUMBRA_BRANCH=043-leda
+TENDERMINT_BRANCH=v0.34.23
 echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
 wget -O go1.18.1.linux-amd64.tar.gz https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
@@ -24,7 +26,7 @@ cd $HOME
 rm -rf $HOME/tendermint
 git clone https://github.com/tendermint/tendermint.git
 cd tendermint
-git checkout v0.34.23
+git checkout $TENDERMINT_BRANCH
 make install
 sleep 2
 tendermint init full
@@ -41,7 +43,7 @@ rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
 cd penumbra 
 git fetch --all
-git checkout 043-leda
+git checkout $PENUMBRA_BRANCH
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
 cargo build --release
