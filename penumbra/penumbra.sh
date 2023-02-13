@@ -32,7 +32,6 @@ sleep 2
 tendermint init full
 curl -s https://raw.githubusercontent.com/penumbra-zone/penumbra/main/testnets/tm_config_template.toml > $HOME/.tendermint/config/config.toml
 sleep 2
-#peers=$(curl -s http://testnet.penumbra.zone:26657/status | jq ".result.node_info.id" | sed 's/.$//' | sed 's/^.//')
 #peers=$(echo "$peers@testnet.penumbra.zone:26656")
 #sleep 5
 #sed -i.bak -e "s/^persistent_peers =.*/persistent_peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
