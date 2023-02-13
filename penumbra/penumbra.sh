@@ -36,7 +36,6 @@ sleep 2
 #peers=$(echo "$peers@testnet.penumbra.zone:26656")
 #sleep 5
 #sed -i.bak -e "s/^persistent_peers =.*/persistent_peers = \"$peers\"/" $HOME/.tendermint/config/config.toml
-#sed -i "s/^mode =.*/mode = \"validator\"/" $HOME/.tendermint/config/config.toml
 sleep 3
 cd $HOME
 rm -rf $HOME/penumbra
