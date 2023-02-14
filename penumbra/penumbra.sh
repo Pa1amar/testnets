@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
 
 IP_ADDRESS=$(curl ifconfig.me)
-PENUMBRA_BRANCH=043-leda
+PENUMBRA_BRANCH=044-ananke
 TENDERMINT_BRANCH=v0.34.23
 echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
