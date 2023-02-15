@@ -33,7 +33,6 @@ tendermint init full
 curl -s https://raw.githubusercontent.com/penumbra-zone/penumbra/main/testnets/tm_config_template.toml > $HOME/.tendermint/config/config.toml
 sleep 2
 #peers=$(echo "$peers@testnet.penumbra.zone:26656")
-#sleep 5
 sleep 3
 cd $HOME
 rm -rf $HOME/penumbra
