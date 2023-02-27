@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter your node name: " MONIKER
-sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils -y < "/dev/null"
+sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
 
 IP_ADDRESS=$(curl ifconfig.me)
 PENUMBRA_BRANCH=046-lysithea
