@@ -2,7 +2,7 @@
 
 read -p "Enter your node name: " MONIKER
 sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
-
+git lfs pull
 IP_ADDRESS=$(curl ifconfig.me)
 PENUMBRA_BRANCH=046-lysithea
 TENDERMINT_BRANCH=v0.34.23
