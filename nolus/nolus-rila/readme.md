@@ -16,5 +16,5 @@ rm -rf $HOME/.nolus/data
 curl -L https://storage.palamar.io/testnet/nibiru/snapshot_latest.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
 mv $HOME/priv_validator_state.json $HOME/.nolus/data/priv_validator_state.json
 #restart your node and check logs
-sudo systemctl start nolusd && sudo journalctl -u nolusd -f -o cat
+sudo systemctl restart nolusd && sudo journalctl -u nolusd -f -o cat
 ```
