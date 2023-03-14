@@ -1,7 +1,6 @@
 #!/bin/bash
 read -p "Enter your node name: " MONIKER
 sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
-git lfs pull
 IP_ADDRESS=$(curl ifconfig.me)
 PENUMBRA_BRANCH=048-carme
 TENDERMINT_BRANCH=v0.34.23
@@ -34,7 +33,7 @@ cd $HOME
 rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
 cd penumbra 
-git fetch --all
+git lfs pull
 git checkout $PENUMBRA_BRANCH
 cargo update
 export RUST_LOG="warn,pd=debug,penumbra=debug,jmt=info"
