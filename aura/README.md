@@ -4,7 +4,6 @@
 #stop node
 sudo systemctl stop aurad
 aurad tendermint unsafe-reset-all --home $HOME/.aura
-
 RPC="https://rpc-euphoria.aura.palamar.io:443"
 
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
