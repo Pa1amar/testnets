@@ -5,7 +5,6 @@
 sudo systemctl stop aurad
 aurad tendermint unsafe-reset-all --home $HOME/.aura
 RPC="https://rpc-euphoria.aura.palamar.io:443"
-
 LATEST_HEIGHT=$(curl -s $RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
