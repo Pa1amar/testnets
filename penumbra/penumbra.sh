@@ -18,7 +18,6 @@ curl https://sh.rustup.rs -sSf | sh -s -- -y
 source $HOME/.cargo/env
 source $HOME/.bash_profile
 echo -e '\n\e[42mInstall software\e[0m\n' && sleep 1
-
 cd $HOME
 rm -rf $HOME/tendermint
 git clone https://github.com/tendermint/tendermint.git
