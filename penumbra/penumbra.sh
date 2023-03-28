@@ -44,7 +44,6 @@ rm -rf $HOME/.cargo/git/checkouts/*
 pd testnet unsafe-reset-all
 pcli view reset
 pd testnet join --external-address $IP_ADDRESS --moniker $MONIKER
-
 echo -e '\n\e[42mCreating a service for Tendermint Node ...\e[0m\n' && sleep 1
 echo "[Unit]
 Description=Tendermint Node
