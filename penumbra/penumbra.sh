@@ -4,6 +4,8 @@ sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-
 IP_ADDRESS=$(curl ifconfig.me):26656
 PENUMBRA_BRANCH=049-pasiphae.1
 TENDERMINT_BRANCH=v0.34.23
+sudo systemctl stop penumbrad 2>/dev/null
+sudo systemctl stop tendermintd 2>/dev/null
 echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
 wget -O go1.18.1.linux-amd64.tar.gz https://golang.org/dl/go1.18.1.linux-amd64.tar.gz
