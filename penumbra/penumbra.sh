@@ -2,7 +2,7 @@
 read -p "Enter your node name: " MONIKER
 sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
 IP_ADDRESS=$(curl ifconfig.me):26656
-PENUMBRA_BRANCH=049-pasiphae
+PENUMBRA_BRANCH=049-pasiphae.1
 TENDERMINT_BRANCH=v0.34.23
 echo -e '\n\e[42mInstall Go\e[0m\n' && sleep 1
 cd $HOME
