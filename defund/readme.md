@@ -7,6 +7,15 @@
 | API  | https://aura-api.palamar.io:443 |
 | GRPC | http://api.orbit-alpha-1.palamar.io:10517 |
 
+### Download snapshot (Updated every 12 hour):
+```bash
+sudo systemctl stop defund || sudo systemctl stop defundd
+cp $HOME/.defund/data/priv_validator_state.json $HOME/.defund/priv_validator_state.json.backup
+rm -rf $HOME/.defund/data
+curl -L https://storage.palamar.io/testnet/defund/snapshot.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.defund
+mv $HOME/.defund/priv_validator_state.json.backup $HOME/.defund/data/priv_validator_state.json
+sudo systemctl restart defund || sudo systemctl restart defundd
+```
 
 ### Download addrbook.json (Updated every hour):
 ```bash
