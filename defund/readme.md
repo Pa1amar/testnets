@@ -10,7 +10,7 @@
 
 ### Download addrbook.json (Updated every hour):
 ```bash
-sudo systemctl stop aurad
+sudo systemctl stop defund || sudo systemctl stop defundd
 wget -O $HOME/.defund/config/addrbook.json https://storage.palamar.io/testnet/defund/addrbook.json
-sudo systemctl start aurad
+sudo systemctl start defundd || sudo systemctl start defundd
 ```
