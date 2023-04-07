@@ -4,8 +4,8 @@
 |----------:|-------|
 | Chain ID         | `orbit-alpha-1` |
 | RPC  | https://rpc.orbit-alpha-1.palamar.io:443 |
-| API  | https://aura-api.palamar.io:443 |
-| GRPC | http://api.orbit-alpha-1.palamar.io:10517 |
+| API  | http://api.orbit-alpha-1.palamar.io:10517 |
+| GRPC | http://grpc.orbit-alpha-1.palamar.io:10590 |
 
 ### Download snapshot (Updated every 12 hour):
 ```bash
