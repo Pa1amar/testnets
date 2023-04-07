@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/Pa1amar/mainnets/main/aura/Defund-logo.png)
+![Logo](https://github.com/Pa1amar/testnets/raw/main/defund/Defund-logo.png)
 ## Defund
 | Attribute | Value |
 |----------:|-------|
