@@ -17,6 +17,24 @@ mv $HOME/.defund/priv_validator_state.json.backup $HOME/.defund/data/priv_valida
 sudo systemctl restart defund || sudo systemctl restart defundd
 ```
 
+## StateSync
+```bash
+SNAP_RPC="https://rpc.orbit-alpha-1.palamar.io:443"
+PEER="2850fc3e2a07f2f99a5fdd6d1d5bf2061e380f27@rpc.orbit-alpha-1.palamar.io:10556"
+sed -i -e "s/^persistent_peers *=.*/persistent_peers = \"$PEER\"/" ~/.defund/config/config.toml
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); \
+TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.defund/config/config.toml
+
+defundd tendermint unsafe-reset-all --home $HOME/.defund || defundd unsafe-reset-all
+sudo systemctl restart defundd || sudo systemctl restart defund 
+journalctl -u defundd -f --no-hostname -o cat
+
 ### Download addrbook.json (Updated every hour):
 ```bash
 sudo systemctl stop defund || sudo systemctl stop defundd
