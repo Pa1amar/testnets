@@ -19,7 +19,7 @@ sudo systemctl restart defund || sudo systemctl restart defundd
 
 ### StateSync
 ```bash
-SNAP_RPC="https://rpc.orbit-alpha-1.palamar.io:443"
+SNAP_RPC="http://rpc.orbit-alpha-1.palamar.io:10557"
 PEER="2850fc3e2a07f2f99a5fdd6d1d5bf2061e380f27@rpc.orbit-alpha-1.palamar.io:10556"
 sed -i -e "s/^persistent_peers *=.*/persistent_peers = \"$PEER\"/" ~/.defund/config/config.toml
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
