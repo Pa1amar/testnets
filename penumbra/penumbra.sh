@@ -72,7 +72,6 @@ LimitNOFILE=10000
 [Install]
 WantedBy=multi-user.target
 " > $HOME/penumbrad.service
-
 sudo mv $HOME/tendermintd.service /etc/systemd/system
 sudo mv $HOME/penumbrad.service /etc/systemd/system
 sudo tee <<EOF >/dev/null /etc/systemd/journald.conf
