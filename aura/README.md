@@ -29,7 +29,6 @@ sudo journalctl -u aurad -f -o cat
 recent=100
 every=0
 interval=10
-
 sed -i.back "s/pruning *=.*/pruning = \"custom\"/g" $HOME/.aura/config/app.toml
 sed -i "s/pruning-keep-recent *=.*/pruning-keep-recent = \"$recent\"/g" $HOME/.aura/config/app.toml
 sed -i "s/pruning-keep-every *=.*/pruning-keep-every = \"$every\"/g" $HOME/.aura/config/app.toml
