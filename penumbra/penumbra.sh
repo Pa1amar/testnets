@@ -83,5 +83,5 @@ echo -e '\n\e[42mEnabling Tendermint and Penumbra Node services\e[0m\n' && sleep
 sudo systemctl enable tendermintd
 sudo systemctl enable penumbrad
 sudo systemctl restart penumbrad
-sleep 20
+sleep 15
 sudo systemctl restart tendermintd
