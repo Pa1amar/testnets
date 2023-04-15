@@ -25,7 +25,7 @@ rm -rf $HOME/tendermint
 git clone https://github.com/tendermint/tendermint.git
 cd tendermint
 git checkout $TENDERMINT_BRANCH
-make install
+make install || exit
 sleep 2
 tendermint init full
 curl -s https://raw.githubusercontent.com/penumbra-zone/penumbra/main/testnets/tm_config_template.toml > $HOME/.tendermint/config/config.toml
