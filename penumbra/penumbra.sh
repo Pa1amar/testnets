@@ -65,7 +65,7 @@ Description=Penumbra Node
 After=network-online.target
 [Service]
 User=$USER
-ExecStart=$(which pd) start --home "$HOME/.penumbra/testnet_data/node0/pd"
+ExecStart=/usr/local/bin/pd start --home "$HOME/.penumbra/testnet_data/node0/pd"
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
