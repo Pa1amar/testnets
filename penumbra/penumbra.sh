@@ -31,6 +31,7 @@ sleep 2
 tendermint init full
 curl -s https://raw.githubusercontent.com/penumbra-zone/penumbra/main/testnets/tm_config_template.toml > $HOME/.tendermint/config/config.toml
 sleep 2
+
 cd $HOME
 rm -rf $HOME/penumbra
 git clone https://github.com/penumbra-zone/penumbra.git
