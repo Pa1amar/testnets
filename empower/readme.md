@@ -4,7 +4,7 @@
 |----------:|-------|
 | Chain ID         | `circulus-1` |
 | RPC  | https://empower-rpc.palamar.io:443
-http://empower-rpc.palamar.io:10857 |
+|      | http://empower-rpc.palamar.io:10857 |
 | API  | https://empower-api.palamar.io:443 |
 | GRPC | https://empower-grpc.palamar.io:443 |
 | EXPLORER | https://testnet.explorer.palamar.io/circulus-1 |
