@@ -84,7 +84,7 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" $HOME/.empowerchain/config/config.toml
 
 empowerd tendermint unsafe-reset-all --home $HOME/.empowerchain || empowerd unsafe-reset-all
-wget -O $HOME/.empowerchain/config/addrbook.json https://storage.palamar.io/mainnet/empower/addrbook.json
+wget -O $HOME/.empowerchain/config/addrbook.json https://storage.palamar.io/testnet/empower/addrbook.json
 sudo systemctl restart empowerd 
 journalctl -u empowerd -f --no-hostname -o cat
 ```
