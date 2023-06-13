@@ -14,7 +14,7 @@
 ## Install node
 ```bash
 sudo apt update
-sudo apt install make clang pkg-config libssl-dev build-essential git jq -y
+sudo apt install curl wget make clang pkg-config tmux systemd libssl-dev build-essential vim git jq ncdu bsdmainutils lz4 zip htop -y
 ```
 #### Install go
 ```bash
