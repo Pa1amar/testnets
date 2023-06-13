@@ -1,5 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/Pa1amar/testnets/main/empower/empower.png)
-## empower
+## Empower
 | Attribute | Value |
 |----------:|-------|
 | Chain ID         | `circulus-1` |
