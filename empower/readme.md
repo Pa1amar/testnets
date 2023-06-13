@@ -32,7 +32,7 @@ go version
 ```bash
 cd $HOME && rm -rf empowerchain
 git clone https://github.com/EmpowerPlastic/empowerchain.git
-cd empowerchain
+cd empowerchain/chain
 git checkout v1.0.0-rc2
 make build
 sudo mv build/empowerd /usr/local/bin/
