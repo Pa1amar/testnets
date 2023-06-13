@@ -8,7 +8,7 @@
 | API  | https://empower-api.palamar.io:443 
 |      | http://empower-api.palamar.io:10817 |
 | GRPC | https://empower-grpc.palamar.io:443 
-|      | http://empower-grpc.palamar.io:10890 |
+|      | http://empower-grpc.palamar.io:10891 |
 | EXPLORER | https://testnet.explorer.palamar.io/circulus-1 |
 
 ## Install node
