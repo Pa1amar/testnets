@@ -27,9 +27,10 @@ go version
 ```
 #### Build binary
 ```bash
-cd $HOME && rm -rf empower
-git clone https://github.com/empower-network/empower.git && cd empower
-git checkout v1.4.0
+cd $HOME && rm -rf empowerchain
+git clone https://github.com/EmpowerPlastic/empowerchain.git
+cd empowerchain
+git checkout v1.0.0-rc2
 make build
 sudo mv build/empowerd /usr/local/bin/
 empowerd version
