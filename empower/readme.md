@@ -38,7 +38,7 @@ empowerd version
 #### Init node and download genesis
 ```bash
 empowerd init node --chain-id circulus-1
-wget -O $HOME/.empowerchain/config/genesis.json https://raw.githubusercontent.com/Pa1amar/mainnets/main/empower/genesis.json
+wget -O $HOME/.empowerchain/config/genesis.json https://raw.githubusercontent.com/Pa1amar/testnets/main/empower/genesis.json
 empowerd tendermint unsafe-reset-all --home $HOME/.empowerchain || empowerd unsafe-reset-all
 ```
 #### Create service and start node
@@ -69,7 +69,7 @@ sudo systemctl enable empowerd
 ## StateSync
 ```bash
 SNAP_RPC="https://empower-rpc.palamar.io:443"
-PEER="6ad32961d595c715739f146f60d95830f8261bea@empower-rpc.palamar.io:10856"
+PEER="f49e31adcc40fa1d5134a3a0cacbb9925821906b@empower-rpc.palamar.io:10856"
 sed -i -e "s/^persistent_peers *=.*/persistent_peers = \"$PEER\"/" ~/.empowerchain/config/config.toml
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); \
