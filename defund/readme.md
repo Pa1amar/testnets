@@ -39,6 +39,6 @@ journalctl -u defundd -f --no-hostname -o cat
 ### Download addrbook.json (Updated every hour):
 ```bash
 sudo systemctl stop defund || sudo systemctl stop defundd
-wget -O $HOME/.defund/config/addrbook.json https://storage.palamar.io/testnet/defund/addrbook.json
+wget --spider -O $HOME/.defund/config/addrbook.json https://storage.palamar.io/testnet/defund/addrbook.json
 sudo systemctl start defundd || sudo systemctl start defundd
 ```
