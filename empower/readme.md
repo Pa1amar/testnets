@@ -91,6 +91,6 @@ journalctl -u empowerd -f --no-hostname -o cat
 ### Download addrbook.json (Updated every hour):
 ```bash
 sudo systemctl stop empowerd
-wget -O $HOME/.empowerchain/config/addrbook.json https://storage.palamar.io/testnet/empower/addrbook.json
+wget --spider -O $HOME/.empowerchain/config/addrbook.json https://storage.palamar.io/testnet/empower/addrbook.json
 sudo systemctl start empowerd
 ```
