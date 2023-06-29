@@ -1,7 +1,7 @@
 ## Download addrbook.json:
 ```bash
 sudo systemctl stop nolusd
-wget -O $HOME/.nolus/config/addrbook.json https://raw.githubusercontent.com/Pa1amar/testnets/main/nolus/nolus-rila/addrbook.json
+wget --spider -O $HOME/.nolus/config/addrbook.json https://raw.githubusercontent.com/Pa1amar/testnets/main/nolus/nolus-rila/addrbook.json
 sudo systemctl start nolusd
 ```
 
