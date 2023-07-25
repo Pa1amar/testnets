@@ -38,7 +38,7 @@ sed -i "s/pruning-interval *=.*/pruning-interval = \"$interval\"/g" $HOME/.aura/
 **Public Endpoints**:
  - RPC: `rpc-euphoria.aura.palamar.io`
  - API: `api-euphoria.aura.palamar.io`
- - Explorer: https://testnet.explorer.palamar.io/euphoria-1
+ - Explorer: https://testnet.explorer.palamar.io/euphoria-2
 
 **Ports used:**
 
