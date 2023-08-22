@@ -1,7 +1,7 @@
 #!/bin/bash
 read -p "Enter your node name: " MONIKER
 sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
-IP_ADDRESS=$(curl ifconfig.me):26656
+IP_ADDRESS=$(curl ipinfo.io/ip):26656
 PENUMBRA_BRANCH=v0.59
 TENDERMINT_BRANCH=v0.34.23
 sudo systemctl stop penumbrad 2>/dev/null
