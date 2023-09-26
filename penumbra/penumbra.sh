@@ -22,7 +22,7 @@ source $HOME/.bash_profile
 echo -e '\n\e[42mInstall software\e[0m\n' && sleep 1
 cd $HOME
 rm -rf $HOME/cometbft
-git clone git clone https://github.com/cometbft/cometbft.git
+git clone https://github.com/cometbft/cometbft.git
 cd cometbft
 git checkout $COMEBFT_BRANCH
 make install || exit
