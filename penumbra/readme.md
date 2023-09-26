@@ -8,5 +8,5 @@ sudo journalctl -u penumbrad -f -o cat
 ```
 check tendermint node logs
 ```bash
-sudo journalctl -u tendermintd -f -o cat
+sudo journalctl -u cometbftd -f -o cat
 ```
