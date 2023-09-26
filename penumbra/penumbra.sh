@@ -52,7 +52,7 @@ Description=Cometbft Node
 After=network-online.target
 [Service]
 User=$USER
-ExecStart=/usr/local/bin/cometbft start --home "$HOME/.penumbra/testnet_data/node0/cometbft/" 
+ExecStart=`which cometbft` start --home "$HOME/.penumbra/testnet_data/node0/cometbft/" 
 Restart=always
 RestartSec=10
 LimitNOFILE=10000
