@@ -21,8 +21,8 @@ source $HOME/.cargo/env
 source $HOME/.bash_profile
 echo -e '\n\e[42mInstall software\e[0m\n' && sleep 1
 cd $HOME
-git clone https://github.com/cometbft/cometbft.git
 rm -rf $HOME/cometbft
+git clone https://github.com/cometbft/cometbft.git
 cd cometbft
 git checkout $COMEBFT_BRANCH
 make install || exit
