@@ -11,7 +11,7 @@ TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.
 
 echo $LATEST_HEIGHT $BLOCK_HEIGHT $TRUST_HASH
 
-PEER="d806db349c2166333beffedee935c4b266ce23c9@rpc-euphoria.aura.palamar.io:46656"
+PEER="08cfa1db7896eb62f351504062e15fe65c99a717@rpc-euphoria.aura.palamar.io:46656"
 sed -i.bak "s/^persistent_peers *=.*/persistent_peers = \"$PEER\"/" $HOME/.aura/config/config.toml
 
 sed -i -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
