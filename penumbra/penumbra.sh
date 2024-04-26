@@ -2,7 +2,7 @@
 read -p "Enter your node name: " MONIKER
 sudo apt update && sudo apt install make curl clang pkg-config libssl-dev build-essential git jq ncdu bsdmainutils git-lfs -y < "/dev/null"
 IP_ADDRESS=$(curl ipinfo.io/ip):26656
-PENUMBRA_BRANCH=v0.70.0
+PENUMBRA_BRANCH=v0.73.0
 COMEBFT_BRANCH=v0.37.2
 sudo systemctl stop penumbrad 2>/dev/null
 sudo systemctl stop cometbftd 2>/dev/null
